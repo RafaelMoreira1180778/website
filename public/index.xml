@@ -26,6 +26,7 @@ Fusce pharetra suscipit orci nec tempor.</description>
 &lt;li&gt;Aenean facilisis ut ipsum condimentum ultrices.&lt;/li&gt;
 &lt;li&gt;Fusce sed metus vulputate, lobortis purus et, finibus purus. Suspendisse quis posuere lorem. Vivamus vulputate nec risus in pulvinar.&lt;/li&gt;
 &lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;./control-plane.svg&#34; alt=&#34;k8s-control-plane&#34;&gt;&lt;/p&gt;
 </content>
     </item>
     
