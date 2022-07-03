@@ -1,6 +1,7 @@
 languageCode = "en-us"
 theme = "terminal"
 paginate = 5
+enableGitInfo = true
 
 [params]
   contentTypeName = "posts"
@@ -10,7 +11,7 @@ paginate = 5
   fullWidthTheme = false
   centerTheme = true
   autoCover = true
-  showLastUpdated = false
+  showLastUpdated = true
   updatedDatePrefix = "Updated"
   Toc = true
   TocTitle = "echo \"Table of Contents\""
@@ -19,10 +20,10 @@ paginate = 5
   [languages.en]
     languageName = "English"
     title = "echo \"Rafael Moreira\""
-    subtitle = "A simple, retro theme for Hugo"
-    owner = ""
-    keywords = ""
-    copyright = ""
+    subtitle = "A DevOps Engineer maintaned blog. Simple and Informative."
+    owner = "Rafael Moreira"
+    keywords = "DevOps, Docker, Kubernetes, SysOps, Linux"
+    copyright = "Rafael Moreira"
     menuMore = "Show more"
     readMore = "Read more"
     readOtherPosts = "Read other posts"

@@ -2,17 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>echo &#34;Rafael Moreira&#34;</title>
-    <link>https://homelabrafael.com/</link>
+    <link>/</link>
     <description>Recent content on echo &#34;Rafael Moreira&#34;</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 29 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://homelabrafael.com/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Rafael Moreira</copyright>
+    <lastBuildDate>Wed, 29 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hello Friend</title>
-      <link>https://homelabrafael.com/posts/test/</link>
+      <link>/posts/test/</link>
       <pubDate>Wed, 29 Jun 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://homelabrafael.com/posts/test/</guid>
+      <guid>/posts/test/</guid>
       <description>TEST SUBTITLE 1 SUBTITLE 2 { &amp;#34;hostname&amp;#34;: &amp;#34;pwa-84c7d879fc-ft4td&amp;#34;, &amp;#34;date&amp;#34;: &amp;#34;2022-06-28T19:32:44.233Z&amp;#34;, &amp;#34;logLevel&amp;#34;: &amp;#34;error&amp;#34;, &amp;#34;logLevelId&amp;#34;: 5, &amp;#34;filePath&amp;#34;: &amp;#34;.next/server/pages/api/cms/block/[...identifier].js&amp;#34;, &amp;#34;fullFilePath&amp;#34;: &amp;#34;/app/.next/server/pages/api/cms/block/[...identifier].js&amp;#34;, &amp;#34;fileName&amp;#34;: &amp;#34;[...identifier].js&amp;#34;, &amp;#34;lineNumber&amp;#34;: 33, &amp;#34;columnNumber&amp;#34;: 12, &amp;#34;isConstructor&amp;#34;: false, &amp;#34;functionName&amp;#34;: &amp;#34;handler&amp;#34;, &amp;#34;argumentsArray&amp;#34;: [ &amp;#34;Cannot read properties of undefined (reading &amp;#39;substring&amp;#39;)&amp;#34; ] } Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec interdum metus. Aenean rutrum ligula sodales ex auctor, sed tempus dui mollis. Curabitur ipsum dui, aliquet nec commodo at, tristique eget ante.</description>
       <content>&lt;h1 id=&#34;test&#34;&gt;TEST&lt;/h1&gt;
 &lt;h2 id=&#34;subtitle-1&#34;&gt;SUBTITLE 1&lt;/h2&gt;
@@ -47,6 +48,27 @@
 &lt;p&gt;Updating stuff&lt;/p&gt;
 &lt;p&gt;testing stuff&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;./control-plane.svg&#34; alt=&#34;k8s-control-plane&#34;&gt;&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/about/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/contact/</guid>
+      <description></description>
+      <content>&lt;p&gt;&lt;img src=&#34;https://gitlab.com/work-and-public/cv/-/raw/master/cv.png&#34; alt=&#34;Resume&#34;&gt;&lt;/p&gt;
 </content>
     </item>
     

@@ -1,0 +1,1 @@
+![Resume](https://gitlab.com/work-and-public/cv/-/raw/master/cv.png)
