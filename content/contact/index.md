@@ -16,5 +16,3 @@ You can email me at [rafael@homelabrafael.com](mailto:rafael@homelabrafael.com).
 Here is my _more detailed_ resume, with more information about my work history and academic history, alongside a very small exposure of the technologies I am proficient at.
 
 ![Resume](./resume.svg)
-
-[test redirect](../posts/test/)

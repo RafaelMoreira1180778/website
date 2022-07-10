@@ -47,8 +47,7 @@ What do I do? I work with multiple technology stacks to deliver development chan
       <guid>/contact/</guid>
       <description>LinkedIn I am available at LinkedIn, where I share my accomplishments and other relevant information for my work history and academic record.
 Email You can email me at rafael@homelabrafael.com.
-Resume Here is my more detailed resume, with more information about my work history and academic history, alongside a very small exposure of the technologies I am proficient at.
-test redirect</description>
+Resume Here is my more detailed resume, with more information about my work history and academic history, alongside a very small exposure of the technologies I am proficient at.</description>
       <content>&lt;h2 id=&#34;linkedin&#34;&gt;LinkedIn&lt;/h2&gt;
 &lt;p&gt;I am available at &lt;a href=&#34;https://www.linkedin.com/in/paulorafaelmoreira/&#34;&gt;LinkedIn&lt;/a&gt;, where I share my accomplishments and other relevant information for my work history and academic record.&lt;/p&gt;
 &lt;h2 id=&#34;email&#34;&gt;Email&lt;/h2&gt;
@@ -56,7 +55,6 @@ test redirect</description>
 &lt;h2 id=&#34;resume&#34;&gt;Resume&lt;/h2&gt;
 &lt;p&gt;Here is my &lt;em&gt;more detailed&lt;/em&gt; resume, with more information about my work history and academic history, alongside a very small exposure of the technologies I am proficient at.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;./resume.svg&#34; alt=&#34;Resume&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;../posts/test/&#34;&gt;test redirect&lt;/a&gt;&lt;/p&gt;
 </content>
     </item>
     
