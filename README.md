@@ -20,7 +20,7 @@ You can run a development local webserver that will update whenever there is a f
 
 To generate the static (HTML/CSS) files you can run `hugo` at the root of the project as well.
 
-### License
+## License
 
 Copyright © 2022 Rafael Moreira
 
