@@ -12,7 +12,9 @@ This repository contains the code for my personal website/blog, present at [home
 
 The theme used in this website is the `Terminal` theme, available on [Terminal's GitHub Repository](https://github.com/panr/hugo-theme-terminal).
 
-This theme was made by [Radek Kozieł @panr](https://twitter.com/panr) and falls under the [MIT License](https://github.com/panr/hugo-theme-terminal/blob/master/LICENSE.md).
+This theme was made by [Radek Kozieł @panr](https://twitter.com/panr) and is licensed under the [MIT License](https://github.com/panr/hugo-theme-terminal/blob/master/LICENSE.md).
+
+Fair warning: the theme currently in use has diverged from the original one, with minor, quality of life, improvements.
 
 ## How to build and run
 
@@ -24,4 +26,4 @@ To generate the static (HTML/CSS) files you can run `hugo` at the root of the pr
 
 Copyright © 2022 Rafael Moreira
 
-This repository and all it's code is under the [MIT License](./LICENSE).
+This repository and all it's code is licensed under the [MIT License](./LICENSE).
