@@ -24,4 +24,4 @@ To generate the static (HTML/CSS) files you can run `hugo` at the root of the pr
 
 Copyright © 2022 Rafael Moreira
 
-This repository and all it's code is under the [MIT License](./).
+This repository and all it's code is under the [MIT License](./LICENSE).
