@@ -34,7 +34,7 @@ enableGitInfo = true
     missingBackButtonLabel = "Back to home page"
 
     [languages.en.params.logo]
-      logoText = "echo \"Rafael Moreira\""
+      logoText = "echo \"Homepage\""
       logoHomeLink = "/"
 
     [languages.en.menu]

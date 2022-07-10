@@ -3,21 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>/posts/test/</loc>
-    <lastmod>2022-06-29T10:24:51+01:00</lastmod>
+    <lastmod>2022-07-09T23:56:43+01:00</lastmod>
   </url><url>
     <loc>/posts/</loc>
-    <lastmod>2022-06-29T10:24:51+01:00</lastmod>
+    <lastmod>2022-07-09T23:56:43+01:00</lastmod>
   </url><url>
     <loc>/</loc>
-    <lastmod>2022-07-03T21:57:07+01:00</lastmod>
+    <lastmod>2022-07-10T01:09:34+01:00</lastmod>
   </url><url>
     <loc>/about/</loc>
-    <priority>0</priority>
-  </url><url>
-    <loc>/contact/</loc>
-    <priority>0</priority>
+    <lastmod>2022-07-10T01:05:28+01:00</lastmod>
   </url><url>
     <loc>/categories/</loc>
+  </url><url>
+    <loc>/contact/</loc>
+    <lastmod>2022-07-03T23:13:52+01:00</lastmod>
   </url><url>
     <loc>/tags/</loc>
   </url>
