@@ -14,6 +14,8 @@ The theme used in this website is the `Terminal` theme, available on [Terminal's
 
 This theme was made by [Radek Kozieł @panr](https://twitter.com/panr) and falls under the [MIT License](https://github.com/panr/hugo-theme-terminal/blob/master/LICENSE.md).
 
+Fair warning: the theme currently in use has diverged from the original one, with minor, quality of life, improvements.
+
 ## How to build and run
 
 You can run a development local webserver that will update whenever there is a file change by running `hugo server` at the root of the project.
