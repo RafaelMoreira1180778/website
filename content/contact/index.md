@@ -13,6 +13,6 @@ You can email me at [rafael@homelabrafael.com](mailto:rafael@homelabrafael.com).
 
 ## Resume
 
-Here is my _more detailed_ resume, with more information about my work history and academic history, alongside a very small exposure of the technologies I am proficient at. This Resume is available at my [GitLab Repository](https://gitlab.com/work-and-public/cv).
+Here is my _more detailed_ resume, with more information about my work history and academic history, alongside a very small exposure of the technologies I am proficient at. This Resume is available at my [GitLab Repository](https://gitlab.com/work-and-public/resume).
 
 ![Resume](./resume.svg)
