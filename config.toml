@@ -24,7 +24,6 @@ enableGitInfo = true
     subtitle = "A DevOps Engineer maintaned blog. Simple and Informative."
     owner = "Rafael Moreira"
     keywords = "DevOps, Docker, Kubernetes, SysOps, Linux"
-    copyright = "Rafael Moreira"
     menuMore = "Show more"
     readMore = "Read more"
     readOtherPosts = "Read other posts"
