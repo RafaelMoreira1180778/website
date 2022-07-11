@@ -1,6 +1,6 @@
 +++
 title = "How to deploy a static website on Cloudflare Pages"
-date = "2019-07-10"
+date = "2019-07-11"
 author = "Rafael Moreira"
 cover = "cloudflare.svg"
 tags = [ "cloudflare", "cloudflare-pages", "static website", "personal blog" ]
