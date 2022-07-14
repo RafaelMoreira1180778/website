@@ -20,17 +20,17 @@ enableGitInfo = true
 [languages]
   [languages.en]
     languageName = "English"
-    title = "echo \"Rafael Moreira\""
-    subtitle = "A DevOps Engineer maintaned blog. Simple and Informative."
+    title = "echo \"Rafael Moreira's Personal Website\""
+    description = "Just an engineer's personal website, with thoughts, tutorials and rants about stuff engineers do."
     owner = "Rafael Moreira"
     keywords = "DevOps, Docker, Kubernetes, SysOps, Linux"
-    menuMore = "Show more"
+    menuMore = "echo \"Show more\""
     readMore = "echo \"Read More\""
     readOtherPosts = "echo \"Read other posts\""
-    newerPosts = "Newer posts"
-    olderPosts = "Older posts"
-    missingContentMessage = "Page not found..."
-    missingBackButtonLabel = "Back to home page"
+    newerPosts = "echo \"Newer posts\""
+    olderPosts = "echo \"Older posts\""
+    missingContentMessage = "echo \"Page not found...\""
+    missingBackButtonLabel = "echo \"Back to home page\""
 
     [languages.en.params.logo]
       logoText = "echo \"Homepage\""
