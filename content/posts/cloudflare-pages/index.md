@@ -2,9 +2,9 @@
 title = "How to deploy a static website on Cloudflare Pages"
 date = "2019-07-11"
 author = "Rafael Moreira"
-cover = "cloudflare.svg"
+cover = "cloudflare.png"
 tags = [ "cloudflare", "cloudflare-pages", "static website", "personal blog" ]
-description = "Learn how I deployed my personal, fully static, website in Cloudflare Pages using GitLab and Hugo." 
+description = "Learn how I deployed my personal, fully static, website in Cloudflare Pages using GitLab and Hugo."
 +++
 
 In this post I will showcase how I deployed this fully-static website on Cloudflare Pages using an array of FOSS technologies, available to anyone interested. The website deployed has a small footprint and is highly accelerated by Cloudflare to deliver a low latency experience to end users.
