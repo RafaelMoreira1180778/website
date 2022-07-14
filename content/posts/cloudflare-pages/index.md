@@ -3,7 +3,7 @@ title = "How to deploy a static website on Cloudflare Pages"
 date = "2019-07-11"
 author = "Rafael Moreira"
 cover = "cloudflare.png"
-images = ["cloudflare.png"]
+images = ["posts/cloudflare-pages/cloudflare.png"]
 tags = [ "cloudflare", "cloudflare-pages", "static website", "personal blog" ]
 description = "Learn how I deployed my personal, fully static, website in Cloudflare Pages using GitLab and Hugo."
 +++
