@@ -16,6 +16,7 @@ enableGitInfo = true
   updatedDatePrefix = "Updated"
   Toc = true
   TocTitle = "echo \"Table of Contents\""
+  favicon = "favicon.svg"
 
 [languages]
   [languages.en]
