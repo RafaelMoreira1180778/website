@@ -6,6 +6,7 @@ cover = "cloudflare.png"
 images = ["posts/cloudflare-pages/cloudflare_og.png"]
 tags = [ "cloudflare", "cloudflare-pages", "static website", "personal blog" ]
 description = "Learn how I deployed my personal, fully static, website in Cloudflare Pages using GitLab and Hugo."
+disableToc = false
 +++
 
 In this post I will showcase how I deployed this fully-static website on Cloudflare Pages using an array of FOSS technologies, available to anyone interested. The website deployed has a small footprint and is highly accelerated by Cloudflare to deliver a low latency experience to end users.

@@ -1,6 +1,7 @@
 +++
 title = "About Me"
 description = "Section with information about me."
+disableToc = true
 +++
 
 ## Who am I?
@@ -23,11 +24,11 @@ I work on tools to ease developer's problems during their work, to prevent catas
 
 I work with Kubernetes (K8s), Docker and other containerization technologies (Podman, Containerd).
 
-I am proficient in BASH, Typescript (mainly used in Infrastructure as Code or *Kubernetes as Code* projects) and I can manage Linux-based systems (Ubuntu, Alma Linux, CentOS, Amazon Linux, amongst others).
+I am proficient in BASH, Typescript (mainly used in Infrastructure as Code or _Kubernetes as Code_ projects) and I can manage Linux-based systems (Ubuntu, Alma Linux, CentOS, Amazon Linux, amongst others).
 
 ## What am I currently learning?
 
-I am currently improving my Python skills, to begin replacing some of my BASH scripts with Python (this topic deserves a post itself) and I am also learning Go, due to the fact that during my experiments with K8s I have had the need to develop custom tools, such as controllers, and Go feels like the *go-to* language to use for this purpose.
+I am currently improving my Python skills, to begin replacing some of my BASH scripts with Python (this topic deserves a post itself) and I am also learning Go, due to the fact that during my experiments with K8s I have had the need to develop custom tools, such as controllers, and Go feels like the _go-to_ language to use for this purpose.
 
 I plan on learning Terraform and improve my Ansible skills later, to go full cloud-agnostic (in conjunction with K8s).
 
