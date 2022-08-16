@@ -5,7 +5,8 @@ author = "Rafael Moreira"
 cover = "kubernetes.png"
 images = ["posts/kubernetes-how-and-why/kubernetes_og.png"]
 tags = [ "kubernetes", "k8s", "containerization" ]
-description = "See what is my opinion on Kubernetes and how I share my experience on why you should use it and how you should use it." 
+description = "See what is my opinion on Kubernetes and how I share my experience on why you should use it and how you should use it."
+disableToc = false
 +++
 
 ## A bit of history
