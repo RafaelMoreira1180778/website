@@ -26,3 +26,63 @@ And the list could continue with my experience from almost 3 years with this ISP
 
 So enters Asus and their networking equipment. There are a lot of major players on the networking industry, some are more data-center focused, other also provide home-networking solutions (like Ubiquiti, that has a perfect balance of offers). I chose Asus because of their reputation, my experience with their devices (mostly laptops) in the past, and the fact that they provide some real powerful routers.
 
+My first choice was the router AC88U, for which you can get the specs [here](https://www.asus.com/pt/Networking-IoT-Servers/WiFi-Routers/ASUS-WiFi-Routers/RT-AC88U/techspec/). I chose this as my main router for the following reasons:
+
+- 8 Gigabit ports, with two individual controllers for each 4 ports (which means that they can all work without hiccups at full speed)
+- 512Mb of RAM and 1.4GHz dual-core processor
+- 1000Mbps on the 2.4GHz wireless band and 2167Mbps on the 5GHz wireless band
+- AiMesh support (this was a requirement rather than a nice to have, more on that later)
+- QoS, traffic controll, wepage analysis, amongst other features
+- ISP support: Asus works with ISPs to implement their specific protocols, so you can still have your ISP router working as intended for top boxes, for example, and have the network managed by the Asus Equipment
+
+It is not cheap, but looking for promotions I was able to get it 100€ below MSRP, which is a solid investment for the kind of hardware I was buying. I was thinking of expanding my home networking with more routers so I wanted something with [AiMesh](https://www.asus.com/microsite/AiMesh/en/index.html) support.
+
+AiMesh is a feature that allows you to create an Wi-Fi mesh in your house using routers. Traditionally, this is made by using specific Mesh hardware that works together to deliver a smooth Wi-Fi experience, but Asus made sure to include a feature on their routers so you can have more versatillity out of your routers.
+
+After some time I installed an [Asus RT-AX55](https://www.asus.com/pt/Networking-IoT-Servers/WiFi-Routers/All-series/RT-AX55/techspec/) to serve as a Mesh node and network split for the other end of the house, and they are both connected via Gigabit as their backhaul, so they are blazing fast talking to each other. The Wi-Fi mesh system works great, with little to no configuration needed out of the box, so my devices can roam the entire house and not have separate Wi-Fi networks between access points.
+
+Now, after all this setup, I switched the original firmware on my AC88U to the [Asuswrt-Merlin](https://www.asuswrt-merlin.net/). This firmware is based on the original firmware that Asus ships with their routers (and that gets updated frequently, by the way), but adds a [battery of features](https://www.asuswrt-merlin.net/features) on top of it, as well as support for addons.
+
+Included in this firmware is a tool to check the temperature. After sometime checking it, I noticed that the processor easily spiked to 80°C on a hotter day, so I wanted to do something about it. At first, putting a fan on the bottom seemed like the reasonable way to go, but after watching a disassebly video I noticed that there are chips that could use cooling on the top side of the PCB (in fact there is an exhaust vent on the top of the router).
+
+I jumped on Thingiverse and found these two pieces:
+
+- [ASUS AC88U Fan](https://www.thingiverse.com/thing:2826415)
+- [Asus RT-AC88u 140mm cooling fan stand](https://www.thingiverse.com/thing:2197533)
+
+In theory, these two 3D printed pieces paired with some decent Noctua fans would deliver the cooling I needed and so I ordered the following fans:
+
+- [NF-A6x25 5V](https://noctua.at/en/products/fan/nf-a6x25-5v)
+- [NF-A14 5V](https://noctua.at/en/products/fan/nf-a14-5v)
+
+These are 5V specific fans, there were optimized to work on USB ports, for example, and deliver pressure and airflow like no other on the market, whilst maitaining a decent amount of noise for their performance. There paired perfectly with the 3D Printed parts (that I got from local sellers that printed it at their homes and sold it to me for a fair price, always support local businesses whenever possible). This was the result of this setup:
+
+Now, as for performance and cooling, here are the base readings on a _normal_ day:
+
+|             | **Temperature** |
+| :---------: | :-------------: |
+| **Ambient** |      22°C       |
+|   **CPU**   |      75°C       |
+|  **5GHz**   |      50°C       |
+| **2.4GHz**  |      42°C       |
+
+And here are the results after just around 15 minutes of both fans turned on:
+
+![Temperatures after 5 minutes](./temp_results.png)
+
+|             | **Temperature** | **Delta (ΔT)** |
+| :---------: | :-------------: | :------------: |
+| **Ambient** |      22°C       |      22°C      |
+|   **CPU**   |      46°C       |     -29°C      |
+|  **5GHz**   |      41°C       |      -9°C      |
+| **2.4GHz**  |      32°C       |     -10°C      |
+
+Now that's impressive, with an almost 30°C drop on the CPU, this allows it to run at full speed most of the time. Now, to be clear, there is nothing wrong with the original temperatures, Asus did not include any cooling whatsoever on the router because these temperatures are fine, but on hotter days you may experience 80+°C on the CPU and 60+°C on the 5GHz chip and that can make you feel instabillity on the network.
+
+Given the final results, I would say that this experience was a success, but I still have a few improvements to make:
+
+- Add a PWM controller (because, even though these are 5V fans they are still PWM capable) to the fans so I can tune their speed
+- Add a small USB hub to turn off the fans with a single button
+- Find a way to link the fans to the temperature of the router to have them dinamically turn on and off (there is a feature to shut-off USB ports but only works for the data pins, not the power pins of the USB)
+
+Conclusion: should you do something like this? Probably no. Was it worth it? Yes.
