@@ -1,6 +1,6 @@
 +++
 title = "Why do I have one of the coolest (literally) Asus Routers ever?"
-date = "2019-07-11"
+date = "2019-08-14"
 author = "Rafael Moreira"
 cover = "asus.svg"
 images = ["posts/asus-router/asus_og.png"]
@@ -56,6 +56,40 @@ In theory, these two 3D printed pieces paired with some decent Noctua fans would
 - [NF-A14 5V](https://noctua.at/en/products/fan/nf-a14-5v)
 
 These are 5V specific fans, there were optimized to work on USB ports, for example, and deliver pressure and airflow like no other on the market, whilst maitaining a decent amount of noise for their performance. There paired perfectly with the 3D Printed parts (that I got from local sellers that printed it at their homes and sold it to me for a fair price, always support local businesses whenever possible). This was the result of this setup:
+
+> **Before**
+>
+> ![Router without any Addons](./router_blank.jpg)
+
+> **After**
+>
+> ![Complete Router](./router_complete.jpg)
+
+> **60mm Fan (Top)**
+>
+> ![60mm Fan](./fan_60mm.jpg)
+>
+> ![Underside of 60mm Fan](./fan_60mm_under.jpg)
+>
+> ![Cable Management of 60mm Fan](./fan_60mm_cm.jpg)
+
+As you can see I had a bit of a problem with the screws for the 60mm Fan. This is because this design (3d printed part) will work better with fans that have an _open corner_ design, so you can insert a screw and tighten it from the top. These fans do not allow it easily, nor did I find screws that fited this design by the time I've put this together. I've done a few cuts using a sharp knife to accomodate the zip-ties and keep the piece leveled until I find suitable screws for this purpose (working from the underside is not very easy also).
+
+> **140mm Fan (Bottom)**
+>
+> ![140mm Fan](./fan_140mm.jpg)
+>
+> ![Cable Management of 140mm Fan](./fan_140mm_cm.jpg)
+
+The fit on the cable management hole for the 140mm fan is not very easy but workable nonetheless.
+
+> **Fan Connections**
+>
+> ![How both fans connect](./fans_connected.jpg)
+
+If you decide to go with this setup, the 140mm fan brings an Y splitter (PWM) and the 60mm fan brings the USB adapter, so you can make this connection and setup work.
+
+Please keep in mind that these fans are not SUPER quiet, they still make some noise. You could install a [NA-FC1](https://noctua.at/en/na-fc1) PWM fan controller and set the speed lower and probably achieve good results. In the future I intend to develop some kind of solution to link the router's thermal probe to the status of the fan. This is currently possible since you can shutdown the data pins for the USB port using the special features of the Asuswrt-Merlin software but you cannot disable the 5V power pins and this will require some more thinkering. An USB hub with power buttons could do the job of turning on and off the fans since it would not require disconnecting the USB plug for the fan (**keep in mind the maximum amperage of the USB port!**).
 
 Now, as for performance and cooling, here are the base readings on a _normal_ day:
 
