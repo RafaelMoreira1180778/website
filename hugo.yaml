@@ -1,0 +1,60 @@
+baseurl: "https://homelabrafael.com"
+languageCode: "en-us"
+theme: hugo-coder
+paginate: 6
+enableGitInfo: true
+defaultContentLanguage: "en"
+enableEmoji: true
+
+params:
+  author: "Rafael Moreira"
+  description: "Just an engineer's personal website, with thoughts, tutorials and rants about stuff engineers do."
+  keywords: "DevOps, Docker, Kubernetes, SysOps, Linux"
+  info:
+    - "Engineer Through and Through"
+    - "Python Guru"
+    - "Hardware Enthusiast"
+  avatarURL: images/avatar.jpg
+  dateFormat: "January 2, 2006"
+  commit: "https://gitlab.com/work-and-public/personal-website/-/commit/"
+  since: 2021
+  colorScheme: "auto"
+  favicon: "favicon.svg"
+  social:
+    - name: Github
+      icon: fa-brands fa-github fa-2x
+      weight: 1
+      url: https://github.com/RafaelMoreira1180778
+    - name: GitLab
+      icon: fa-brands fa-gitlab fa-2x
+      weight: 2
+      url: https://gitlab.com/rafaelmoreira1180778
+    - name: LinkedIn
+      icon: fa-brands fa-linkedin fa-2x
+      weight: 3
+      url: https://www.linkedin.com/in/paulorafaelmoreira/
+
+taxonomies:
+  category: categories
+  series: series
+  tag: tags
+  author: authors
+  teste: teste
+
+languages:
+  en:
+    languageName: ":en:"
+    menu:
+      main:
+        - name: "[Homepage]"
+          weight: 1
+          url: /
+        - name: "[About Me]"
+          weight: 2
+          url: about/
+        - name: "[Posts]"
+          weight: 3
+          url: posts/
+        - name: "[Contact Me]"
+          weight: 4
+          url: contact/
