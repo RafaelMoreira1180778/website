@@ -1,12 +1,8 @@
-# [homelabrafael.com](https://homelabrafael.com/)
+# homelabrafael.com
 
 A fully static, small footprint Website, powered by [Hugo](https://gohugo.io/), deployed in [Cloudflare Pages](https://pages.cloudflare.com/).
 
-![Website Overview](./resources/images/web_overview.png)
-
-## Purpose
-
-This repository contains the code for my personal website/blog, present at [homelabrafael.com](https://homelabrafael.com/).
+[![Website Overview](./resources/images/web_overview.png)](https://homelabrafael.com)
 
 ## Theme
 

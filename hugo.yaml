@@ -16,7 +16,7 @@ params:
     - "Hardware Enthusiast"
   avatarURL: images/avatar.jpg
   dateFormat: "January 2, 2006"
-  commit: "https://gitlab.com/work-and-public/personal-website/-/commit/"
+  commit: "https://github.com/RafaelMoreira1180778/Personal-Website/commit/"
   since: 2021
   colorScheme: "auto"
   favicon: "favicon.svg"
