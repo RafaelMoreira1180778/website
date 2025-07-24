@@ -5,7 +5,7 @@
   "scripts": {
     "build": "hugo --minify",
     "dev": "wrangler dev",
-    "deploy": "npm run build && wrangler deploy",
+    "deploy": "wrangler deploy",
     "preview": "hugo server -D",
     "clean": "rm -rf public resources"
   },

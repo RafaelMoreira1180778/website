@@ -1,6 +1,9 @@
 {
   "name": "homelabrafael-website",
   "compatibility_date": "2025-04-08",
+  "build": {
+    "command": "hugo --minify"
+  },
   "assets": {
     "directory": "./public/",
     "not_found_handling": "404-page"
