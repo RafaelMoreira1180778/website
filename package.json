@@ -1,0 +1,26 @@
+{
+  "name": "homelabrafael-website",
+  "version": "1.0.0",
+  "description": "Rafael Moreira's personal website powered by Hugo and deployed on Cloudflare Workers",
+  "scripts": {
+    "build": "hugo --minify",
+    "dev": "wrangler dev",
+    "deploy": "npm run build && wrangler deploy",
+    "preview": "hugo server -D",
+    "clean": "rm -rf public resources"
+  },
+  "keywords": [
+    "hugo",
+    "static-site",
+    "cloudflare-workers",
+    "personal-website"
+  ],
+  "author": "Rafael Moreira",
+  "license": "MIT",
+  "devDependencies": {
+    "wrangler": "^4.26.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

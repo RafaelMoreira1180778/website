@@ -1,11 +1,30 @@
 baseurl: "https://homelabrafael.com"
 languageCode: "en-us"
 theme: hugo-coder
-paginate: 6
 enableGitInfo: true
 defaultContentLanguage: "en"
 enableEmoji: true
 title: "Homelabrafael"
+
+# Pagination configuration (updated for Hugo v0.148.1)
+pagination:
+  pagerSize: 6
+
+# Hugo build optimization for Cloudflare Workers
+publishDir: "public"
+minify: true
+enableRobotsTXT: true
+
+# Asset processing
+imaging:
+  resampleFilter: "CatmullRom"
+  quality: 85
+  anchor: "smart"
+
+# Build configuration
+build:
+  writeStats: true
+  useResourceCacheWhen: "fallback"
 
 params:
   author: "Rafael Moreira"

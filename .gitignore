@@ -5,3 +5,5 @@ hugo_stats.json
 /.hugo_build.lock
 .cache
 _gen/
+node_modules/
+.wrangler/
